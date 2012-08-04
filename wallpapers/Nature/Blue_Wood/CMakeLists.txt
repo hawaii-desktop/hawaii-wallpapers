@@ -1,4 +1,4 @@
-set(INSTALL_DIR "${CMAKE_INSTALL_THEMESDIR}/wallpapers/Nature/Blue_Wood")
+set(INSTALL_DIR "${CMAKE_INSTALL_DATADIR}/wallpapers/Nature/Blue_Wood")
 
 file(GLOB PICTURES "contents/images/*.jpg")
 install(FILES metadata.desktop DESTINATION ${INSTALL_DIR})
