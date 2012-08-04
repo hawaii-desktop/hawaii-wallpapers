@@ -1,4 +1,4 @@
-set(INSTALL_DIR "${CMAKE_INSTALL_THEMESDIR}/wallpapers/Nature/Fields_of_Peace")
+set(INSTALL_DIR "${CMAKE_INSTALL_DATADIR}/wallpapers/Nature/Fields_of_Peace")
 
 file(GLOB PICTURES "contents/images/*.jpg")
 install(FILES metadata.desktop DESTINATION ${INSTALL_DIR})
