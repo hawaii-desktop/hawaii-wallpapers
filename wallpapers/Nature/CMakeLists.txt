@@ -1,0 +1,12 @@
+install(FILES metadata.desktop DESTINATION ${CMAKE_INSTALL_DATADIR}/wallpapers/Nature)
+
+add_subdirectory(Aghi)
+add_subdirectory(Autumn)
+add_subdirectory(Blue_Wood)
+add_subdirectory(Evening)
+add_subdirectory(Fields_of_Peace)
+add_subdirectory(Finally_Summer_in_Germany)
+add_subdirectory(Fresh_Morning)
+add_subdirectory(Grass)
+add_subdirectory(Hanami)
+add_subdirectory(Red_Leaf)
