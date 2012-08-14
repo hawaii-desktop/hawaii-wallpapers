@@ -72,7 +72,7 @@ Name[x-test]=xxRed Leafxx
 Name[zh_CN]=血珞朱叶
 Name[zh_TW]=紅葉
 
-X-Mirage-PluginInfo-Name=Red_Leaf
-X-Mirage-PluginInfo-Author=Joseph Connors
-X-Mirage-PluginInfo-Email=josephconnors@usa.net
-X-Mirage-PluginInfo-License=LGPLv3
+X-Hawaii-PluginInfo-Name=Red_Leaf
+X-Hawaii-PluginInfo-Author=Joseph Connors
+X-Hawaii-PluginInfo-Email=josephconnors@usa.net
+X-Hawaii-PluginInfo-License=LGPLv3

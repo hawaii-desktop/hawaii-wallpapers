@@ -55,7 +55,7 @@ Name[x-test]=xxHanamixx
 Name[zh_CN]=Hanami
 Name[zh_TW]=Hanami
 
-X-Mirage-PluginInfo-Name=Hanami
-X-Mirage-PluginInfo-Author=Alexandre Courbot
-X-Mirage-PluginInfo-Email=gnurou@gmail.com
-X-Mirage-PluginInfo-License=LGPLv3
+X-Hawaii-PluginInfo-Name=Hanami
+X-Hawaii-PluginInfo-Author=Alexandre Courbot
+X-Hawaii-PluginInfo-Email=gnurou@gmail.com
+X-Hawaii-PluginInfo-License=LGPLv3
