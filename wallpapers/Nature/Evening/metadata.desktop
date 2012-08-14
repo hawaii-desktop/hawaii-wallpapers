@@ -68,7 +68,7 @@ Name[x-test]=xxEveningxx
 Name[zh_CN]=黄昏
 Name[zh_TW]=傍晚
 
-X-Mirage-PluginInfo-Name=Evening
-X-Mirage-PluginInfo-Author=Christoph Kummer
-X-Mirage-PluginInfo-Email=christoph@traeumt.net
-X-Mirage-PluginInfo-License=LGPLv3
+X-Hawaii-PluginInfo-Name=Evening
+X-Hawaii-PluginInfo-Author=Christoph Kummer
+X-Hawaii-PluginInfo-Email=christoph@traeumt.net
+X-Hawaii-PluginInfo-License=LGPLv3

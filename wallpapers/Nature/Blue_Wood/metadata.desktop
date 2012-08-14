@@ -57,7 +57,7 @@ Name[x-test]=xxBlue Woodxx
 Name[zh_CN]=蓝木头
 Name[zh_TW]=Blue Wood
 
-X-Mirage-PluginInfo-Name=Blue_Wood
-X-Mirage-PluginInfo-Author=Jonas Arnfred
-X-Mirage-PluginInfo-Email=jonas@ifany.org
-X-Mirage-PluginInfo-License=LGPLv3
+X-Hawaii-PluginInfo-Name=Blue_Wood
+X-Hawaii-PluginInfo-Author=Jonas Arnfred
+X-Hawaii-PluginInfo-Email=jonas@ifany.org
+X-Hawaii-PluginInfo-License=LGPLv3

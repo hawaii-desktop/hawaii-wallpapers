@@ -64,7 +64,7 @@ Name[x-test]=xxAghixx
 Name[zh_CN]=雨后针叶
 Name[zh_TW]=Aghi
 
-X-Mirage-PluginInfo-Name=Aghi
-X-Mirage-PluginInfo-Author=Matteo Nobile
-X-Mirage-PluginInfo-Email=matteo.nobile@hispeed.ch
-X-Mirage-PluginInfo-License=LGPLv3
+X-Hawaii-PluginInfo-Name=Aghi
+X-Hawaii-PluginInfo-Author=Matteo Nobile
+X-Hawaii-PluginInfo-Email=matteo.nobile@hispeed.ch
+X-Hawaii-PluginInfo-License=LGPLv3
