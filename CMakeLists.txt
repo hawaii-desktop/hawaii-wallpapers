@@ -2,6 +2,12 @@ project(HawaiiWallpapers)
 
 cmake_minimum_required(VERSION 2.8.7)
 
+# Version
+set(WALLPAPERS_VERSION_MAJOR 0)
+set(WALLPAPERS_VERSION_MINOR 1)
+set(WALLPAPERS_VERSION_PATCH 0)
+set(WALLPAPERS_VERSION_STRING "${WALLPAPERS_VERSION_MAJOR}.${WALLPAPERS_VERSION_MINOR}.${WALLPAPERS_VERSION_PATCH}")
+
 # Installation directories
 include(HawaiiInstallDirs)
 
