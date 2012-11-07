@@ -11,9 +11,6 @@ set(WALLPAPERS_VERSION_STRING "${WALLPAPERS_VERSION_MAJOR}.${WALLPAPERS_VERSION_
 # Installation directories
 include(HawaiiInstallDirs)
 
-# Make CPack available to easy generate binary packages
-include(CPack)
-
 # Add custom uninstall target
 configure_file(
     "${CMAKE_CURRENT_SOURCE_DIR}/cmake_uninstall.cmake.in"
