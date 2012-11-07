@@ -16,5 +16,13 @@ configure_file(
 
 add_custom_target(uninstall "${CMAKE_COMMAND}" -P "${CMAKE_CURRENT_BINARY_DIR}/cmake_uninstall.cmake")
 
+# Set up packaging
+set(CPACK_PACKAGE_NAME hawaii-wallpapers)
+set(CPACK_PACKAGE_VERSION ${WALLPAPERS_VERSION_STRING})
+set(CPACK_SYSTEM_NAME "generic")
+set(CPACK_GENERATOR "TGZ")
+set(CPACK_SET_DESTDIR FALSE)
+include(CPack)
+
 # Subdirectories
 add_subdirectory(wallpapers)
