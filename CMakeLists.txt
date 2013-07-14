@@ -9,7 +9,7 @@ set(WALLPAPERS_VERSION_PATCH 90)
 set(WALLPAPERS_VERSION_STRING "${WALLPAPERS_VERSION_MAJOR}.${WALLPAPERS_VERSION_MINOR}.${WALLPAPERS_VERSION_PATCH}")
 
 # Installation directories
-include(HawaiiInstallDirs)
+include(GNUInstallDirs)
 
 # Add custom uninstall target
 configure_file(
