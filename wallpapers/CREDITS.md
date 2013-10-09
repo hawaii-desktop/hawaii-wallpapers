@@ -19,7 +19,7 @@
   - License: CC-BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
 
 * **halfway done...**
-  - File Name: Halfway Gone.jpg
+  - File Name: Halfway_Gone.jpg
   - Author: Andy Hutchinson
   - URL: http://andyhutchinson.deviantart.com/art/halfway-gone-208649740
   - License: CC-BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)

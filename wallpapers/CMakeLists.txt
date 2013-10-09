@@ -1,9 +1,9 @@
 set(WALLPAPERS
     16.jpg
     3.jpg
-    Halfway\ Gone.jpg
+    Halfway_Gone.jpg
     Springlight.jpg
-    Also\ Calm.png
+    Also_Calm.png
 )
 
 install(FILES ${WALLPAPERS} DESTINATION ${CMAKE_INSTALL_DATADIR}/backgrounds/hawaii)
