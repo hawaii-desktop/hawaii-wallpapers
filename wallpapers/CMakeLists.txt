@@ -1,9 +1,6 @@
 set(WALLPAPERS
     16.jpg
     3.jpg
-    Coasto.jpg
-    Colorful\ City.jpg
-    Everest.jpg
     Halfway\ Gone.jpg
     Springlight.jpg
     Also\ Calm.png
