@@ -5,7 +5,6 @@ set(WALLPAPERS
     Colorful\ City.jpg
     Everest.jpg
     Halfway\ Gone.jpg
-    One\ Path.jpg
     Springlight.jpg
     Also\ Calm.png
 )

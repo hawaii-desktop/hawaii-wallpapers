@@ -12,8 +12,6 @@
   Everest by RurouniVash - http://rurounivash.deviantart.com/art/Everest-216901989
 * Halfway Gone.jpg
   halfway gone... by andyhutchinson - http://andyhutchinson.deviantart.com/art/halfway-gone-208649740
-* One Path.jpg
-  One Path Wallpaper by emats - http://emats.deviantart.com/art/One-Path-Wallpaper-144422356
 * Springlight.jpg
   Springlight by kirill0v - http://kirill0v.deviantart.com/art/Springlight-206200033
 * Also Calm.png
