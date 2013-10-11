@@ -4,13 +4,13 @@
   - File Name: 16.jpg
   - Author: bo0xVn
   - URL: http://bo0xvn.deviantart.com/art/16-195628281
-  - License: -
+  - License: CC-BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
 
 * **3**
   - File Name: 3.jpg
   - Author: bo0xVn
   - URL: http://bo0xvn.deviantart.com/art/3-194811256
-  - License: -
+  - License: CC-BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
 
 * **Also Calm**
   - File Name: Also_Calm.png
@@ -58,4 +58,4 @@
   - File Name: Springlight.jpg
   - Author: kirill0v
   - URL: http://kirill0v.deviantart.com/art/Springlight-206200033
-  - License: -
+  - License: CC-BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
