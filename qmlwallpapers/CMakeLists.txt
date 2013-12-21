@@ -1,0 +1,1 @@
+install(DIRECTORY fallingleaves/ DESTINATION ${CMAKE_INSTALL_DATADIR}/hawaii/wallpapers/org.hawaii.fallingleaves)
