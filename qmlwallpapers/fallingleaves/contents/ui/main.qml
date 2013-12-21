@@ -42,12 +42,25 @@ import QtQuick 2.0
 import QtQuick.Particles 2.0
 
 Item {
-    width: 360
-    height: 600
+    Timer {
+        property int lastImage: 0
+        property variant images: ["autumnwall01.jpg", "autumnwall02.jpg", "autumnwall03.jpg", "autumnwall04.jpg"]
+
+        running: true
+        repeat: true
+        interval: 5*60000 // 5 min
+        onTriggered: {
+            lastImage = (lastImage + 1) % images.length;
+            background.source = images[lastImage];
+        }
+    }
 
     Image {
-        source: "backgroundLeaves.jpg"
+        id: background
         anchors.fill: parent
+        source: "autumnwall01.jpg"
+        sourceSize.width: width
+        sourceSize.height: height
     }
 
     ParticleSystem {
