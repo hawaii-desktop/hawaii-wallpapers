@@ -81,35 +81,37 @@ Item {
         }
 
         Affector {
+            property bool linear: false
             property real coefficient: 0.1
             property real velocity: 1.5
             width: parent.width
             height: parent.height - 100
             onAffectParticles: {
-                /*
-                // Linear movement
-                if (particle.r == 0) {
-                    particle.r = Math.random() > 0.5 ? -1 : 1;
-                } else if (particle.r == 1) {
-                    particle.rotation += velocity * dt;
-                    if (particle.rotation >= maxAngle)
-                        particle.r = -1;
-                } else if (particle.r == -1) {
-                    particle.rotation -= velocity * dt;
-                    if (particle.rotation <= -1 * maxAngle)
-                        particle.r = 1;
-                }
-            */
-                // Wobbly movement
-                for (var i = 0; i < particles.length; i++) {
-                    var particle = particles[i];
-                    if (particle.r == 0.0)
-                        particle.r = Math.random() + 0.01;
-                    particle.rotation += velocity * particle.r * dt;
-                    particle.r -= particle.rotation * coefficient;
-                    if (particle.r == 0.0)
-                        particle.r -= particle.rotation * 0.000001;
-                    particle.update = 1;
+                if (linear) {
+                    // Linear movement
+                    if (particle.r == 0) {
+                        particle.r = Math.random() > 0.5 ? -1 : 1;
+                    } else if (particle.r == 1) {
+                        particle.rotation += velocity * dt;
+                        if (particle.rotation >= maxAngle)
+                            particle.r = -1;
+                    } else if (particle.r == -1) {
+                        particle.rotation -= velocity * dt;
+                        if (particle.rotation <= -1 * maxAngle)
+                            particle.r = 1;
+                    }
+                } else {
+                    // Wobbly movement
+                    for (var i = 0; i < particles.length; i++) {
+                        var particle = particles[i];
+                        if (particle.r == 0.0)
+                            particle.r = Math.random() + 0.01;
+                        particle.rotation += velocity * particle.r * dt;
+                        particle.r -= particle.rotation * coefficient;
+                        if (particle.r == 0.0)
+                            particle.r -= particle.rotation * 0.000001;
+                        particle.update = 1;
+                    }
                 }
             }
         }
