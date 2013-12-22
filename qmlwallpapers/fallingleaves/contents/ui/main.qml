@@ -43,28 +43,27 @@ import QtQuick.Particles 2.0
 
 Item {
     Timer {
-        property int lastImage: 0
+        property int lastImage: -1
         property variant images: ["autumnwall01.jpg", "autumnwall02.jpg", "autumnwall03.jpg", "autumnwall04.jpg"]
 
-        running: true
         repeat: true
         interval: 5*60000 // 5 min
+        triggeredOnStart: true
         onTriggered: {
             lastImage = (lastImage + 1) % images.length;
-            background.source = images[lastImage];
+            background.source = Qt.resolvedUrl(images[lastImage]);
         }
     }
 
     Image {
         id: background
         anchors.fill: parent
-        source: "autumnwall01.jpg"
         sourceSize.width: width
         sourceSize.height: height
     }
 
     ParticleSystem {
-        anchors.fill: parent
+        anchors.fill: background
 
         Emitter {
             width: parent.width
@@ -146,32 +145,32 @@ Item {
             z:4
             sprites: [
                 Sprite {
-                    source: "realLeaf1.png"
+                    source: Qt.resolvedUrl("realLeaf1.png")
                     frameCount: 1
                     frameDuration: 1
                     to: {"a":1, "b":1, "c":1, "d":1}
                 },
                 Sprite {
                     name: "a"
-                    source: "realLeaf1.png"
+                    source: Qt.resolvedUrl("realLeaf1.png")
                     frameCount: 1
                     frameDuration: 10000
                 },
                 Sprite {
                     name: "b"
-                    source: "realLeaf2.png"
+                    source: Qt.resolvedUrl("realLeaf2.png")
                     frameCount: 1
                     frameDuration: 10000
                 },
                 Sprite {
                     name: "c"
-                    source: "realLeaf3.png"
+                    source: Qt.resolvedUrl("realLeaf3.png")
                     frameCount: 1
                     frameDuration: 10000
                 },
                 Sprite {
                     name: "d"
-                    source: "realLeaf4.png"
+                    source: Qt.resolvedUrl("realLeaf4.png")
                     frameCount: 1
                     frameDuration: 10000
                 }
