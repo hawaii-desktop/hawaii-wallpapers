@@ -47,6 +47,7 @@ Item {
         property int lastImage: -1
         property variant images: ["autumnwall01.jpg", "autumnwall02.jpg", "autumnwall03.jpg", "autumnwall04.jpg"]
 
+        running: true
         repeat: true
         interval: 5*60000 // 5 min
         triggeredOnStart: true
