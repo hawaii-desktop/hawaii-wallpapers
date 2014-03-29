@@ -1,0 +1,16 @@
+{
+    "Name": "org.hawaii.backgrounds.fallingleaves",
+    "Type": "background",
+    "Version": "1.0",
+    "License": "GPLv2+",
+    "Title": "Falling Leaves",
+    "Description": "Falling leaves on an autumn background",
+    "Authors": [
+        {
+            "Name": "Pier Luigi Fiorini",
+            "Email": "pierluigi.fiorini.com"
+        }
+    ],
+    "WebSite": "http://www.maui-project.org",
+    "MainScript": "ui/main.qml"
+}

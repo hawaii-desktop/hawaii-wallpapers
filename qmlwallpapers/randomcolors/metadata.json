@@ -1,0 +1,16 @@
+{
+    "Name": "org.hawaii.backgrounds.randomcolors",
+    "Type": "background",
+    "Version": "1.0",
+    "License": "GPLv2+",
+    "Title": "Random Colors",
+    "Description": "Noisy background with random colors",
+    "Authors": [
+        {
+            "Name": "Pier Luigi Fiorini",
+            "Email": "pierluigi.fiorini.com"
+        }
+    ],
+    "WebSite": "http://www.maui-project.org",
+    "MainScript": "ui/main.qml"
+}

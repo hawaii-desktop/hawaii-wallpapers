@@ -1,0 +1,16 @@
+{
+    "Name": "org.hawaii.backgrounds.swirl",
+    "Type": "background",
+    "Version": "1.0",
+    "License": "GPLv2+",
+    "Title": "Swirl",
+    "Description": "Noisy background with animated swirl",
+    "Authors": [
+        {
+            "Name": "Pier Luigi Fiorini",
+            "Email": "pierluigi.fiorini.com"
+        }
+    ],
+    "WebSite": "http://www.maui-project.org",
+    "MainScript": "ui/main.qml"
+}
