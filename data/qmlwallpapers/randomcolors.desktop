@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Random Colors
+Comment=Noisy background with random colors
+X-Hawaii-PluginInfo-Type=HawaiiShell
+X-Hawaii-PluginInfo-Name=org.hawaii.backgrounds.randomcolors
+X-Hawaii-PluginInfo-Author=Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
+X-Hawaii-PluginInfo-Email=pierluigi.fiorini@gmail.com
+X-Hawaii-PluginInfo-Website=http://www.maui-project.org
+X-Hawaii-PluginInfo-License=GPLv2+
+X-Hawaii-PluginInfo-MainScript=ui/main.qml
+X-Hawaii-HawaiiShell-Type=Background
+X-Hawaii-HawaiiShell-BackgroundCategory=Animated

@@ -1,16 +1,25 @@
 {
-    "Name": "org.hawaii.backgrounds.randomcolors",
-    "Type": "background",
-    "Version": "1.0",
-    "License": "GPLv2+",
-    "Title": "Random Colors",
-    "Description": "Noisy background with random colors",
-    "Authors": [
-        {
-            "Name": "Pier Luigi Fiorini",
-            "Email": "pierluigi.fiorini.com"
-        }
-    ],
-    "WebSite": "http://www.maui-project.org",
-    "MainScript": "ui/main.qml"
+    "HawaiiShell": {
+        "BackgroundCategory": "Animated",
+        "Type": "Background"
+    },
+    "PluginInfo": {
+        "Authors": [
+            "Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>"
+        ],
+        "Contact": {
+            "Email": "pierluigi.fiorini@gmail.com",
+            "Website": "http://www.maui-project.org"
+        },
+        "Description": {
+            "en": {
+                "Comment": "Noisy background with random colors",
+                "Name": "Random Colors"
+            }
+        },
+        "Implements": "HawaiiShell",
+        "InternalName": "org.hawaii.backgrounds.randomcolors",
+        "License": "GPLv2+",
+        "MainScript": "ui/main.qml"
+    }
 }

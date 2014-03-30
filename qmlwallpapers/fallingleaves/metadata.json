@@ -1,16 +1,25 @@
 {
-    "Name": "org.hawaii.backgrounds.fallingleaves",
-    "Type": "background",
-    "Version": "1.0",
-    "License": "GPLv2+",
-    "Title": "Falling Leaves",
-    "Description": "Falling leaves on an autumn background",
-    "Authors": [
-        {
-            "Name": "Pier Luigi Fiorini",
-            "Email": "pierluigi.fiorini.com"
-        }
-    ],
-    "WebSite": "http://www.maui-project.org",
-    "MainScript": "ui/main.qml"
+    "HawaiiShell": {
+        "BackgroundCategory": "Animated",
+        "Type": "Background"
+    },
+    "PluginInfo": {
+        "Authors": [
+            "Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>"
+        ],
+        "Contact": {
+            "Email": "pierluigi.fiorini@gmail.com",
+            "Website": "http://www.maui-project.org"
+        },
+        "Description": {
+            "en": {
+                "Comment": "Falling leaves on an autumn background",
+                "Name": "Falling Leaves"
+            }
+        },
+        "Implements": "HawaiiShell",
+        "InternalName": "org.hawaii.backgrounds.fallingleaves",
+        "License": "GPLv2+",
+        "MainScript": "ui/main.qml"
+    }
 }
