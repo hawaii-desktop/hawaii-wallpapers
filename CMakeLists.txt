@@ -1,4 +1,4 @@
-project(HawaiiWallpapers NONE)
+project(HawaiiWallpapers)
 
 cmake_minimum_required(VERSION 2.8.7)
 
@@ -8,8 +8,12 @@ set(WALLPAPERS_VERSION_MINOR 3)
 set(WALLPAPERS_VERSION_PATCH 0)
 set(WALLPAPERS_VERSION_STRING "${WALLPAPERS_VERSION_MAJOR}.${WALLPAPERS_VERSION_MINOR}.${WALLPAPERS_VERSION_PATCH}")
 
+# ECM
+find_package(ECM 0.0.11 REQUIRED NO_MODULE)
+set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR})
+
 # Installation directories
-include(GNUInstallDirs)
+include(KDEInstallDirs)
 
 # Add custom uninstall target
 configure_file(
