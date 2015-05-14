@@ -1,17 +1,5 @@
 # Credits
 
-* **16**
-  - File Name: 16.jpg
-  - Author: bo0xVn
-  - URL: http://bo0xvn.deviantart.com/art/16-195628281
-  - License: CC-BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
-
-* **3**
-  - File Name: 3.jpg
-  - Author: bo0xVn
-  - URL: http://bo0xvn.deviantart.com/art/3-194811256
-  - License: CC-BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
-
 * **Also Calm**
   - File Name: Also_Calm.png
   - Author: lassekongo83
@@ -59,3 +47,15 @@
   - Author: kirill0v
   - URL: http://kirill0v.deviantart.com/art/Springlight-206200033
   - License: CC-BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+
+* **Pink Clouds**
+  - File Name: Pink_Clouds.jpg
+  - Author: Harald Hoyer
+  - URL: https://apps.fedoraproject.org/nuancier/pictures/f22/harald-20100418-IMG_0891.jpg
+  - License: CC-BY-SA (http://creativecommons.org/licenses/by-sa/2.0/)
+
+* **Woods of Sweden**
+  - File Name: Woods_of_Sweden.jpg
+  - Author: Noric Couderc
+  - URL: https://www.flickr.com/photos/bisonlugubre/14657511857/in/pool-ubuntu-gnome-14-10
+  - License: CC-BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0/)
